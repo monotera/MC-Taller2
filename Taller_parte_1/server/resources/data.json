@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "name": "Paseo 3",
+    "place_departure": "Med",
+    "place_arrival": "Bog",
+    "date": "2020-10-10"
+  },
+  {
+    "id": 3,
+    "name": "paseo",
+    "place_departure": "Med",
+    "place_arrival": "Bog",
+    "date": "2020-10-10"
+  },
+  {
+    "id": 5,
+    "name": "paseo",
+    "place_departure": "Med",
+    "place_arrival": "Bog",
+    "date": "2020-10-10"
+  },
+  {
+    "id": 6,
+    "name": "paseo 8",
+    "place_departure": "Med",
+    "place_arrival": "Bog",
+    "date": "2021-22-10"
+  }
+]
