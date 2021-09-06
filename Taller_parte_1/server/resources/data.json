@@ -2,8 +2,8 @@
   {
     "id": 0,
     "name": "Paseo 3",
-    "place_departure": "Med",
-    "place_arrival": "Bog",
+    "place_departure": "LP",
+    "place_arrival": "Lol",
     "date": "2020-10-10"
   },
   {
@@ -22,7 +22,7 @@
   },
   {
     "id": 6,
-    "name": "paseo 8",
+    "name": "Paseo 189",
     "place_departure": "Med",
     "place_arrival": "Bog",
     "date": "2021-22-10"

@@ -88,12 +88,28 @@ public class TripControllers {
     }
 
     @PUT
-    @Path("update_trip")
+    @Path("update_trip_name")
     public Response updateTrip(@QueryParam("id") int id, @QueryParam("name") String name) {
         ArrayList<Trip> trips = dc.getData();
         for (Trip trip : trips) {
             if (trip.getId() == id) {
                 trip.setName(name);
+                dc.writeData(trips);
+                return Response.status(200).entity(trip).build();
+            }
+        }
+        return Response.status(404).build();
+    }
+
+    @PUT
+    @Path("update_trip_place")
+    public Response updateTripPlace(@QueryParam("id") int id, @QueryParam("arrival") String arrival,
+            @QueryParam("depature") String depature) {
+        ArrayList<Trip> trips = dc.getData();
+        for (Trip trip : trips) {
+            if (trip.getId() == id) {
+                trip.setPlace_arrival(arrival);
+                trip.setPlace_departure(depature);
                 dc.writeData(trips);
                 return Response.status(200).entity(trip).build();
             }
