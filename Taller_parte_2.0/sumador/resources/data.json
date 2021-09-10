@@ -1,0 +1,32 @@
+[
+  {
+    "user": "Alejandro",
+    "dateInvocation": "2021-09-10T02:37:14.505559",
+    "port": "8480",
+    "response": "Hello Alejandro your operation is: 6 + 6 \u003d 12"
+  },
+  {
+    "user": "Alejandro",
+    "dateInvocation": "2021-09-10T02:45:39.099652",
+    "port": "8480",
+    "response": "Hello Alejandro your operation is: 6 + 6 \u003d 12"
+  },
+  {
+    "user": "Alejandro/history",
+    "dateInvocation": "2021-09-10T02:45:51.598450",
+    "port": "8480",
+    "response": "Hello Alejandro/history your operation is: 6 + 6 \u003d 12"
+  },
+  {
+    "user": "Alejandro/history",
+    "dateInvocation": "2021-09-10T02:46:11.487744",
+    "port": "8480",
+    "response": "Hello Alejandro/history your operation is: 6 + 6 \u003d 12"
+  },
+  {
+    "user": "Alejandro/history",
+    "dateInvocation": "2021-09-10T02:46:12.890073",
+    "port": "8480",
+    "response": "Hello Alejandro/history your operation is: 6 + 6 \u003d 12"
+  }
+]
