@@ -1,0 +1,56 @@
+[
+  {
+    "user": "\"sad",
+    "dateInvocation": "2021-09-10T04:10:13.732605",
+    "port": "8180",
+    "response": "Hello \"sad your operation is: 6 / 6 \u003d 1"
+  },
+  {
+    "user": "hola",
+    "dateInvocation": "2021-09-10T04:10:31.198799",
+    "port": "8180",
+    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
+  },
+  {
+    "user": "hola",
+    "dateInvocation": "2021-09-10T04:13:54.303836",
+    "port": "8180",
+    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
+  },
+  {
+    "user": "hola",
+    "dateInvocation": "2021-09-10T04:20:33.081053",
+    "port": "8180",
+    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
+  },
+  {
+    "user": "Julio",
+    "dateInvocation": "2021-09-10T04:36:06.260273",
+    "port": "8180",
+    "response": "Error, the division is invalid"
+  },
+  {
+    "user": "Julio",
+    "dateInvocation": "2021-09-10T04:36:11.655658",
+    "port": "8180",
+    "response": "Error, the division is invalid"
+  },
+  {
+    "user": "Julio",
+    "dateInvocation": "2021-09-10T04:36:22.004322",
+    "port": "8180",
+    "response": "Error, the division is invalid"
+  },
+  {
+    "user": "hola",
+    "dateInvocation": "2021-09-10T04:36:28.840629",
+    "port": "8180",
+    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
+  },
+  {
+    "user": "hola",
+    "dateInvocation": "2021-09-10T04:36:37.253985",
+    "port": "8180",
+    "response": "Error, the division is invalid"
+  }
+]

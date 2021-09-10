@@ -1,0 +1,26 @@
+[
+  {
+    "user": "Fail",
+    "dateInvocation": "2021-09-10T04:22:31.384280",
+    "port": "8280",
+    "response": "Hello Fail your operation is: 6 x 7 \u003d 42"
+  },
+  {
+    "user": "Fail",
+    "dateInvocation": "2021-09-10T04:25:14.698729",
+    "port": "8280",
+    "response": "Hello Fail your operation is: 6 x 7 \u003d 42"
+  },
+  {
+    "user": "Fail",
+    "dateInvocation": "2021-09-10T04:25:40.363857",
+    "port": "8280",
+    "response": "Hello Fail your operation is: 7 x 7 \u003d 49"
+  },
+  {
+    "user": "Julio",
+    "dateInvocation": "2021-09-10T04:35:33.813381",
+    "port": "8280",
+    "response": "Hello Julio your operation is: 34 x 454 \u003d 15436"
+  }
+]

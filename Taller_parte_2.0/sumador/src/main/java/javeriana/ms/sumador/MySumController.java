@@ -23,18 +23,17 @@ public class MySumController {
 
     @GetMapping("/add")
     public ResponseEntity<String[]> sum(@RequestParam int a, @RequestParam int b, @RequestParam String user) {
-        String[] response = new String[5];
+        String[] response = new String[4];
         response[0] = user;
         response[1] = ("Hello " + user + " your operation is: " + String.valueOf(a) + " + " + String.valueOf(b) + " = "
                 + String.valueOf(a + b));
         response[2] = (LocalDateTime.now().toString());
         response[3] = (environment.getProperty("local.server.port"));
-        response[4] = "addition";
         saveData(response);
         return new ResponseEntity<String[]>(response, null, HttpStatus.SC_OK);
     }
 
-    @RequestMapping(value = "/add/history", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/history", produces = "application/json")
     public ResponseEntity<ArrayList<DataPersistence>> getData() {
         ArrayList<DataPersistence> response = dataPersistenceController.getData();
         return new ResponseEntity<ArrayList<DataPersistence>>(response, null, HttpStatus.SC_OK);

@@ -1,4 +1,4 @@
-package javeriana.ms.calculadora;
+package javeriana.ms.divider;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,9 +11,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
 
-public class DataController {
-    public void writeData(ResponseData newData) {
-        ArrayList<ResponseData> data = getData();
+public class DataPersistenceController {
+    public void writeData(DataPersistence newData) {
+        ArrayList<DataPersistence> data = getData();
         data.add(newData);
         Gson prettyGson = new GsonBuilder().setPrettyPrinting().create();
         String prettyJson = prettyGson.toJson(data);
@@ -29,15 +29,15 @@ public class DataController {
 
     }
 
-    public ArrayList<ResponseData> getData() {
+    public ArrayList<DataPersistence> getData() {
 
-        Type dataListType = new TypeToken<ArrayList<ResponseData>>() {
+        Type dataListType = new TypeToken<ArrayList<DataPersistence>>() {
         }.getType();
         JsonReader dataFile;
         Gson g = new Gson();
         try {
             dataFile = new JsonReader(new FileReader("resources/data.json"));
-            ArrayList<ResponseData> data = g.fromJson(dataFile, dataListType);
+            ArrayList<DataPersistence> data = g.fromJson(dataFile, dataListType);
             return data;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
