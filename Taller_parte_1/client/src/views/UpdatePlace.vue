@@ -9,14 +9,14 @@
               v-model="arrival"
               :counter="20"
               :rules="nameRules"
-              label="Lugar de salida"
+              label="Lugar de llegada"
               required
             ></v-text-field>
             <v-text-field
               v-model="depature"
               :counter="20"
               :rules="nameRules"
-              label="Lugar de llegada"
+              label="Lugar de salida"
               required
             ></v-text-field>
             <v-btn
