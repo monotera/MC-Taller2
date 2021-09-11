@@ -19,12 +19,22 @@ mvn clean install spring-boot:run
 
 
 ## Calculadora URL's
-
+### Addition operation
 * localhost:8080/calculadora/sum?a=..&b=..&user=..
+### Multiplication operation
 * localhost:8080/calcualdora/multip?a=..&b=..&user=..
+### Division operation
 * localhost:8080/calcualdora/div?a=..&b=..&user=..
+### Subtraction operation
 * localhost:8080/calcualdora/resta?a=..&b=..&user=..
+### Addition history
 * localhost:8080/add-history
+
+### Multiplication history
 * localhost:8080/mul-history
+
+### Division history
 * localhost:8080/div-history
+
+### Subtraction history
 * localhost:8080/sub-history
