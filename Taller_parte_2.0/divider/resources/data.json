@@ -1,56 +1,44 @@
 [
   {
-    "user": "\"sad",
-    "dateInvocation": "2021-09-10T04:10:13.732605",
+    "user": "Nelson",
+    "dateInvocation": "2021-09-11T02:01:47.347213",
     "port": "8180",
-    "response": "Hello \"sad your operation is: 6 / 6 \u003d 1"
+    "response": "Hello Nelson your operation is: 21.0 / 5.0 \u003d 4.2"
   },
   {
-    "user": "hola",
-    "dateInvocation": "2021-09-10T04:10:31.198799",
+    "user": "Nelson",
+    "dateInvocation": "2021-09-11T02:51:07.086990",
     "port": "8180",
-    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
+    "response": "Hello Nelson your operation is: 41.0 / 10.0 \u003d 4.1"
   },
   {
-    "user": "hola",
-    "dateInvocation": "2021-09-10T04:13:54.303836",
-    "port": "8180",
-    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
+    "user": "Mariela",
+    "dateInvocation": "2021-09-11T02:54:46.548993",
+    "port": "8182",
+    "response": "Hello Mariela your operation is: 34.0 / 0.0 \u003d error"
   },
   {
-    "user": "hola",
-    "dateInvocation": "2021-09-10T04:20:33.081053",
+    "user": "Mariela",
+    "dateInvocation": "2021-09-11T02:57:28.257153",
     "port": "8180",
-    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
+    "response": "Hello Mariela your operation is: 34.0 / 0.0 \u003d error"
   },
   {
-    "user": "Julio",
-    "dateInvocation": "2021-09-10T04:36:06.260273",
-    "port": "8180",
-    "response": "Error, the division is invalid"
+    "user": "Mariela",
+    "dateInvocation": "2021-09-11T02:57:43.537471",
+    "port": "8182",
+    "response": "Hello Mariela your operation is: 35.0 / 5.0 \u003d 7.0"
   },
   {
-    "user": "Julio",
-    "dateInvocation": "2021-09-10T04:36:11.655658",
-    "port": "8180",
-    "response": "Error, the division is invalid"
+    "user": "Mariela",
+    "dateInvocation": "2021-09-11T03:00:59.761875",
+    "port": "8182",
+    "response": "Hello Mariela your operation is: 34.0 / 0.0 \u003d error"
   },
   {
-    "user": "Julio",
-    "dateInvocation": "2021-09-10T04:36:22.004322",
+    "user": "Mariela",
+    "dateInvocation": "2021-09-11T03:01:12.945596",
     "port": "8180",
-    "response": "Error, the division is invalid"
-  },
-  {
-    "user": "hola",
-    "dateInvocation": "2021-09-10T04:36:28.840629",
-    "port": "8180",
-    "response": "Hello hola your operation is: 6 / 6 \u003d 1"
-  },
-  {
-    "user": "hola",
-    "dateInvocation": "2021-09-10T04:36:37.253985",
-    "port": "8180",
-    "response": "Error, the division is invalid"
+    "response": "Hello Mariela your operation is: 35.0 / 5.0 \u003d 7.0"
   }
 ]

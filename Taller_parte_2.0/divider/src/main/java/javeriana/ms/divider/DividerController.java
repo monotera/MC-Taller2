@@ -20,12 +20,16 @@ public class DividerController {
     Environment environment;
 
     @GetMapping("/div")
-    public ResponseEntity<String[]> div(@RequestParam int a, @RequestParam int b, @RequestParam String user) {
+    public ResponseEntity<String[]> div(@RequestParam Double a, @RequestParam Double b, @RequestParam String user) {
         String[] response = new String[4];
         try {
             response[0] = user;
-            response[1] = ("Hello " + user + " your operation is: " + String.valueOf(a) + " / " + String.valueOf(b)
-                    + " = " + String.valueOf(a / b));
+            if (b != 0)
+                response[1] = ("Hello " + user + " your operation is: " + String.valueOf(a) + " / " + String.valueOf(b)
+                        + " = " + String.valueOf(a / b));
+            else
+                response[1] = ("Hello " + user + " your operation is: " + String.valueOf(a) + " / " + String.valueOf(b)
+                        + " = " + "error");
             response[2] = (LocalDateTime.now().toString());
             response[3] = (environment.getProperty("local.server.port"));
             saveData(response);

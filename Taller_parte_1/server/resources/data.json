@@ -1,16 +1,30 @@
 [
   {
-    "id": 3,
-    "name": "paseo",
-    "place_departure": "Med",
-    "place_arrival": "Bog",
-    "date": "2020-10-10"
+    "id": 0,
+    "name": "Paseo playa",
+    "place_departure": "Bog",
+    "place_arrival": "Med",
+    "date": "2021-02-20"
+  },
+  {
+    "id": 1,
+    "name": "Paseo capital",
+    "place_departure": "SAI",
+    "place_arrival": "BOG",
+    "date": "2021-05-02"
+  },
+  {
+    "id": 5,
+    "name": "Paseo delux",
+    "place_departure": "SAI",
+    "place_arrival": "BOG",
+    "date": "2021-03-03"
   },
   {
     "id": 6,
-    "name": "Paseo 189",
-    "place_departure": "Med",
-    "place_arrival": "Bog",
-    "date": "2021-22-10"
+    "name": "Paseo nuevo prueba",
+    "place_departure": "BOG",
+    "place_arrival": "MED",
+    "date": "2022-01-01"
   }
 ]

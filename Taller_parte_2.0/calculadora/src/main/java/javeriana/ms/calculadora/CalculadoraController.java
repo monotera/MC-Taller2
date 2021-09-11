@@ -29,7 +29,7 @@ public class CalculadoraController {
         return new RestTemplate();
     }
 
-    @GetMapping("/calculator/add")
+    @GetMapping("/calculadora/sum")
     public ResponseEntity<String> calculatorAdd(@RequestParam int a, @RequestParam int b, @RequestParam String user) {
         String[] response = restTemplate.getForObject("http://adder/add?a={a}&b={b}&user={user}", String[].class, a, b,
                 user);
@@ -42,7 +42,7 @@ public class CalculadoraController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @GetMapping("/calculator/mul")
+    @GetMapping("/calculadora/multip")
     public ResponseEntity<String> calculatorMul(@RequestParam int a, @RequestParam int b, @RequestParam String user) {
         String[] response = restTemplate.getForObject("http://multiplier/mul?a={a}&b={b}&user={user}", String[].class,
                 a, b, user);
@@ -55,7 +55,7 @@ public class CalculadoraController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @GetMapping("/calculator/div")
+    @GetMapping("/calculadora/div")
     public ResponseEntity<String> calculatorDiv(@RequestParam int a, @RequestParam int b, @RequestParam String user) {
         String[] response = restTemplate.getForObject("http://divider/div?a={a}&b={b}&user={user}", String[].class, a,
                 b, user);
@@ -68,7 +68,7 @@ public class CalculadoraController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @GetMapping("/calculator/sub")
+    @GetMapping("/calculadora/resta")
     public ResponseEntity<String> calculatorSub(@RequestParam int a, @RequestParam int b, @RequestParam String user) {
         String[] response = restTemplate.getForObject("http://subtraction/sub?a={a}&b={b}&user={user}", String[].class,
                 a, b, user);

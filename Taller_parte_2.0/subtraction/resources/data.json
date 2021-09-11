@@ -1,13 +1,37 @@
 [
   {
-    "user": "Fail",
-    "dateInvocation": "2021-09-10T04:32:18.768604",
+    "user": "Nelson",
+    "dateInvocation": "2021-09-11T01:49:59.819706",
     "port": "8380",
-    "response": "Hello Fail your operation is: 7 - 7 \u003d 0"
+    "response": "Hello Nelson your operation is: 5 - 5 \u003d 0"
   },
   {
     "user": "Julio",
-    "dateInvocation": "2021-09-10T04:35:03.193402",
+    "dateInvocation": "2021-09-11T02:28:09.986365",
+    "port": "8380",
+    "response": "Hello Julio your operation is: 34 - 9985 \u003d -9951"
+  },
+  {
+    "user": "Nelson",
+    "dateInvocation": "2021-09-11T02:51:04.168941",
+    "port": "8381",
+    "response": "Hello Nelson your operation is: 41 - 10 \u003d 31"
+  },
+  {
+    "user": "Julio",
+    "dateInvocation": "2021-09-11T02:54:19.496222",
+    "port": "8381",
+    "response": "Hello Julio your operation is: 34 - 9985 \u003d -9951"
+  },
+  {
+    "user": "Julio",
+    "dateInvocation": "2021-09-11T02:57:03.258072",
+    "port": "8380",
+    "response": "Hello Julio your operation is: 34 - 9985 \u003d -9951"
+  },
+  {
+    "user": "Julio",
+    "dateInvocation": "2021-09-11T03:00:36.761612",
     "port": "8380",
     "response": "Hello Julio your operation is: 34 - 9985 \u003d -9951"
   }
