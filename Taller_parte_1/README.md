@@ -59,13 +59,22 @@ If you want to have a view of the project with a graphical interface, you can in
 * Open the terminal in the directory where you cloned this repository
 * run the command `mvn clean install exec::java`
 
-## Tutorial on how to use the app
+## Back-end URL's
 
-<img src="https://github.com/monotera/MC-Taller2/blob/master/Resources/product_list.png" alt="list_of_products" width="700"/>
-When the application starts, the list of products from the database will be displayed. Here you will have several options to proceed.
+### Get all the trips 
+http://localhost:3000/API/trips
 
-<img src="https://github.com/monotera/MC-Taller2/blob/master/Resources/mod_step.png" alt="list_of_products" width="500"/>
-One action you can take is to change the place of departure and the place of arrival. In the product card you must select the button "Modificar lugar"
+### Get specific trip using the Id 
+http://localhost:3000/API/trip?id=...
 
-<img src="https://github.com/monotera/MC-Taller2/blob/master/Resources/modificar_step.png" alt="list_of_products" width="500"/>
+### Creates a new trip
+http://localhost:3000/API/create_trip
 
+### Deletes a trip using the id
+http://localhost:3000/API/delete_trip/{id}
+
+### Updates a trip name
+http://localhost:3000/API/update_trip_name?id=..&name=..
+
+### Updates a trip place of arrival and place of depature
+http://localhost:3000/API/update_trip_place?id=..&arrival=..&depature=..
