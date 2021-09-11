@@ -70,6 +70,18 @@ http://localhost:3000/API/trip?id=...
 ### Creates a new trip
 http://localhost:3000/API/create_trip
 
+post method that accepts a JSON with the following structure:<br/>
+
+```
+{
+    "name":"paseo",
+    "place_departure":"Med",
+    "place_arrival":"Bog",
+    "date":"2020-10-10"
+
+}
+```
+
 ### Deletes a trip using the id
 http://localhost:3000/API/delete_trip/{id}
 
